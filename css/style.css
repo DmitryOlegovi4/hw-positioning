@@ -1,0 +1,80 @@
+body{
+    padding: 0 10vw;
+}
+.h1-block {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .h1-block h1 {
+    padding-left: 45px;
+    padding-right: 45px;
+    display: inline-block;
+  }
+  .block-info {
+    margin-top: -5px;
+    font-style: italic;
+  }
+  .block-info.block-info-line {
+    text-align: center;
+  }
+  .content h2.block {
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 1px dashed #d1d1d1;
+  }
+  .content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content h2 {
+    margin-top: 0px;
+  }
+  .content h2,
+  .content h3,
+  .content h4 {
+    text-align: center;
+  }
+  .content p {
+    font-size: 15px;
+    text-indent: 0px;
+    line-height: 1.5;
+  }
+  .content p + h2,
+  .content p + h3,
+  .content div + h2,
+  .content div + h3 {
+    margin-top: 15px;
+  }
+  .content ol,
+  .content ul {
+    list-style-position: inside;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .content li ol,
+  .content li ul {
+    margin-top: 10px;
+  }
+  .content ol {
+    list-style-type: numeric;
+  }
+  .content ul {
+    list-style-type: disc;
+  }
+  .-task-{
+    font-weight: bold;
+  }
+  .page {
+    background-color: #ffffff;
+    border: 2px dotted #818181;
+    padding: 10px;
+  }
+  .page-open {
+    font-size: 13px;
+    text-align: center;
+    margin-top: -5px;
+  }
